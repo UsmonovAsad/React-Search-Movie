@@ -1,40 +1,9 @@
-// import React from "react";
-// import Header from "./layout/Header";
-// import Footer from "./layout/Footer";
-// import Main from "./layout/Main";
-
-// class App extends React.Component {
-// 	render() {
-// 		return (
-// 			<>
-// 				<Header />
-// 				<Main />
-// 				<Footer />
-// 			</>
-// 		);
-// 	}
-// }
-
-// export default App;
-
-
-
-
-
-
-
-
-
-
-
-
-
-import {Component} from "react";
+import React from "react";
 import Header from "./layout/Header";
 import Footer from "./layout/Footer";
 import Main from "./layout/Main";
 
-class App extends Component {
+class App extends React.Component {
 	render() {
 		return (
 			<>
@@ -47,27 +16,3 @@ class App extends Component {
 }
 
 export default App;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
