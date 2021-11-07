@@ -1,4 +1,4 @@
-function Header() {
+export default function Header() {
 	return (
 		<nav>
 		    <div className="nav-wrapper">
@@ -7,5 +7,3 @@ function Header() {
 		 </nav>
 	);
 }
-
-export default Header;
